@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/astopo/node-windguru",
   "author": "Amy Soetopo <amy@soetopo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
 }
