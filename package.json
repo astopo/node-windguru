@@ -6,7 +6,11 @@
   "repository": "https://github.com/astopo/node-windguru",
   "author": "Amy Soetopo <amy@soetopo.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "dependencies": {
+    "axios": "^0.21.1",
     "chai": "^4.2.0",
     "mocha": "^8.2.1"
   }
